@@ -10,11 +10,13 @@
 Arresting your colonists during mental breaks only to immediately release them for the chance at a different mental break has become a bit more micro since the 1.3 update.
 
 Introducing the Arrest and release command, which allows you to arrest a colonist and immediately release them in just one click. 
+
 - You don't need to have a prison to use this command, just a room that *could* be a prison if you were to place a sleeping spot inside.
 - The arrestee also doesn't drop their weapon or their inventory so you don't have to micro-manage them to pick everything back up.
 - If the arrestee has an ideology role, they will not lose it (there is no mood debuff for losing it by becoming a prisoner anyway).
 
 This mod tries to stay true to the vanilla mechanics. You shouldn't be able to do anything you couldn't do before; you just don't have to click as much. As such: 
+
 - If the arresting pawn drops the arrestee before the arrest and release is complete, the arrestee will become a prisoner and drop their inventory as usual.
 - After the command completes, the arrestee will still get the Was imprisoned mood debuff.
 - If the arrest would reduce the number of free colonists of an ideology to one, the ideology roles will still deactivate.
