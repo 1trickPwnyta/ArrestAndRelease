@@ -12,6 +12,7 @@ namespace ArrestAndRelease
         public static void AddArrestAndReleaseOption(List<FloatMenuOption> opts, Pawn pawn, LocalTargetInfo targetPawn)
         {
 			Pawn pTarg = (Pawn)targetPawn.Thing;
+			Debug.Log("target pawn: " + pTarg);
 			if (ArrestAndReleaseUtil.IsUnderArrestAndRelease(pTarg))
             {
 				return;
