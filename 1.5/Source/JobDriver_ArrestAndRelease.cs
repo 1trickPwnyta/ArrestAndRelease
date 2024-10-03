@@ -110,7 +110,12 @@ namespace ArrestAndRelease
 			setReleased.initAction = delegate ()
 			{
 				Pawn pawn = setReleased.actor.jobs.curJob.targetA.Thing as Pawn;
+				Building_Bed bed = pawn.ownership.OwnedBed;
 				GenGuest.PrisonerRelease(pawn);
+				if (bed != null)
+				{
+					pawn.ownership.ClaimBedIfNonMedical(bed);
+				}
 				if (!PawnBanishUtility.WouldBeLeftToDie(pawn, pawn.Map.Tile))
 				{
 					GenGuest.AddHealthyPrisonerReleasedThoughts(pawn);
