@@ -23,9 +23,13 @@ This mod tries to stay true to the vanilla mechanics. You shouldn't be able to d
 - The arrestee will lose any ideology roles they hold.
 
 === Updates ===
+11/05/2024: Arrestee now reclaims their bed after the arrest and release action is complete.
 03/21/2024: Updated to 1.5
 10/26/2022: Updated to 1.4
 09/20/2021: Arrestee always loses ideology role because of new ritual requirement.
+
+=== Credits ===
+Mod icon: twitter.com/mouse_draws
 	</description>
 	<url>https://github.com/1trickPonyta/ArrestAndRelease</url>
 	<modDependencies>
