@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ArrestAndRelease_NoPotentialPrison>No reachable, enclosed room with enough space for a prisoner bed.</ArrestAndRelease_NoPotentialPrison>
+	<ArrestAndRelease_TryToArrestAndRelease>Try to arrest and release {0} ({1} chance)</ArrestAndRelease_TryToArrestAndRelease>
+	<ArrestAndRelease_CannotArrestAndRelease>Cannot arrest and release</ArrestAndRelease_CannotArrestAndRelease>
+</LanguageData>

@@ -3,10 +3,12 @@
 	<name>Arrest and Release</name>
 	<author>1trickPonyta</author>
 	<packageId>arrestandrelease.1trickPonyta</packageId>
+	<modVersion IgnoreIfNoMatchingField="True">1.2.1</modVersion>
 	<supportedVersions>
 		<li>1.3</li>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>
 Arresting your colonists during mental breaks only to immediately release them for the chance at a different mental break has become a bit more micro since the 1.3 update.
@@ -23,6 +25,7 @@ This mod tries to stay true to the vanilla mechanics. You shouldn't be able to d
 - The arrestee will lose any ideology roles they hold.
 
 === Updates ===
+06/14/2025: Updated to 1.6
 11/05/2024: Arrestee now reclaims their bed after the arrest and release action is complete.
 03/21/2024: Updated to 1.5
 10/26/2022: Updated to 1.4
